@@ -77,7 +77,7 @@ file = args.file
 # construct the model
 model = create_model()
 # load the saved/trained weights
-model.load_weights("C:\\Users\\Splayser_lab\\OneDrive\\Рабочий стол\\стц\\nice\\model.h5")
+model.load_weights("./model.h5")
 if not file or not os.path.isfile(file):
     # if file not provided, or it doesn't exist, use your voice
     print("Please talk")
