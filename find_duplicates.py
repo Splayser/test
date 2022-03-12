@@ -26,5 +26,5 @@ def find_duplicates(folder, wrt_file):
                 wf.write('Дубликаты: {}'.format(', '.join(list(duplicates[k]))) + '\n')
     wf.close()
 if __name__ == "__main__":
-    find_duplicates(folder = sys.argv[1], wrt_file = (sys.argv[1]+r'\\'+sys.argv[2]))
+    find_duplicates(folder = sys.argv[1], wrt_file = (sys.argv[1]+'/'+sys.argv[2]))
 
